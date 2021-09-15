@@ -13,12 +13,15 @@ export default class CalcButton extends React.Component {
 
   render() {
     const { displayText, gridElementClass } = this.state;
+    const { handler } = this.props;
     return (
-      <div
+      <button
+        type="button"
+        onClick={handler(displayText)}
         className={`calculator-element calculator-button ${gridElementClass}`}
       >
         {displayText}
-      </div>
+      </button>
     );
   }
 }
@@ -30,4 +33,5 @@ CalcButton.defaultProps = {
 CalcButton.propTypes = {
   displayText: PropTypes.string.isRequired,
   gridElementClass: PropTypes.string,
+  handler: PropTypes.func.isRequired,
 };
