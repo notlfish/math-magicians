@@ -2,6 +2,8 @@
 
 Web app with a calculator and random math quotes.
 
+![Awesome Books](assets/calculator-screenshot.png)
+
 ## Built With
 
 - HTML
@@ -16,7 +18,7 @@ To get a local copy of the repository please run the following commands on your 
 ```bash
 $ cd <folder>
 $ git clone https://github.com/notlfish/math-magicians.git
-$ cd To-Do-List
+$ cd math-magicians
 ```
 
 To be able to serve the project on your computer, you'll need to install the developer's dependencies.
