@@ -1,18 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // eslint-disable-next-line react/prefer-stateless-function
 export default class CalcDisplay extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      displayText: 'Math error',
-    };
-  }
-
   render() {
-    const { displayText } = this.state;
+    const { displayText } = this.props;
     return (
       <div className="calculator-element calculator-display">{displayText}</div>
     );
   }
 }
+
+CalcDisplay.propTypes = {
+  displayText: PropTypes.string.isRequired,
+};
