@@ -2,7 +2,7 @@
 
 Web app with a calculator and random math quotes.
 
-![Awesome Books](assets/calculator-screenshot.png)
+![Calculator](assets/calculator-screenshot.png)
 
 ## Built With
 
