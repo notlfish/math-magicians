@@ -4,6 +4,11 @@ Web app with a calculator and random math quotes.
 
 ![Calculator](assets/calculator-screenshot.png)
 
+### Live versions
+
+#### [Netlify](https://notlfish-math-magicians.netlify.app)
+#### [Heroku](https://math-magicians-1.herokuapp.com/)
+
 ## Built With
 
 - HTML
